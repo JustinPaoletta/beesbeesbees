@@ -6,7 +6,7 @@ var ForagerBee = function(age, color, food) {
   this.treasureChest = [];
 };
 
-ForagerBee.prototype = Object.create(Grub.prototype);
+ForagerBee.prototype = Object.create(HoneyMakerBee.prototype);
 
 ForagerBee.prototype.constructor = ForagerBee;
 
